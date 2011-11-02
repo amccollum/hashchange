@@ -12,6 +12,6 @@
     "ender": "lib/ender.js",
     "directories": { "lib": "lib" },
     
-    "dependencies": { "ender-browser": "*", "domready": "*", "bean": "*" },
+    "dependencies": { "domready": "*", "bowser": "*", "bean": "*" },
     "devDependencies": { "coffee-script": "*" }
 }

@@ -9,7 +9,7 @@
         encode: (hash) -> encodeURI(hash).replace(/#/, '%23')
         decode: (hash) ->
             try
-                if $.browser.agent == 'Firefox'
+                if $.browser.firefox
                     return hash
                 else
                     return decodeURI(hash.replace(/%23/, '#'))
@@ -89,7 +89,7 @@
 
     if 'onhashchange' of window
         impl = new HashEvent
-    else if $.browser.agent == 'MSIE' and $.browser.version < 8
+    else if $.browser.msie and $.browser.version < 8
         impl = new HashIframe
     else 
         impl = new HashTimer
