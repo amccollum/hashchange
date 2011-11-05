@@ -1,5 +1,5 @@
-ender-hashchange
-================
+hashchange
+==========
 
 Cross-browser hashchange event support for Ender:
 
@@ -12,6 +12,6 @@ Cross-browser hashchange event support for Ender:
     
 Usage with Ender
 ----------------
-After you install [Ender](http://ender.no.de), include `ender-hashchange` in your package:
+After you install [Ender](http://ender.no.de), include `hashchange` in your package:
 
-    ender add ender-hashchange
+    ender add hashchange
